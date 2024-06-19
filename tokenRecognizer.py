@@ -388,4 +388,3 @@ print(cekketerangan("di bangku"))  # Expected output: True
 print(cekketerangan("di perpustakaan"))  # Expected output: True
 print(cekketerangan("di sekolah"))  # Expected output: True
 print(cekketerangan("di pasar"))  # Expected output: False
-#w
