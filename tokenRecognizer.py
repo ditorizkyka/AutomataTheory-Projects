@@ -58,7 +58,7 @@ def ceksubjek(subjek):
         elif state == 1:
             break
         i += 1
-    print(subjek, state,i)
+    # print(subjek, state,i)
     return state == 1
 
 
@@ -152,7 +152,7 @@ def cekpredikat(predikat):
         elif state == 1:
             break
         i += 1
-    print(predikat, state, i)
+    # print(predikat, state, i)
     return state == 1
 
 def cekobjek(objek):
@@ -233,7 +233,7 @@ def cekobjek(objek):
         elif state == 1:
             break
         i += 1
-    print(objek, state, i)
+    # print(objek, state, i)
     return state == 1
 
 def cekketerangan(keterangan):
@@ -348,43 +348,43 @@ def cekketerangan(keterangan):
         if state == 1:
             break
         i += 1
-    print(keterangan, state,i)
+    # print(keterangan, state,i)
     return state == 1
 
 
 
 
-# Test subjek
-print("Cek Subjek:")
-print(ceksubjek("aku"))       # Expected output: True
-print(ceksubjek("kami"))      # Expected output: True
-print(ceksubjek("kita"))      # Expected output: True
-print(ceksubjek("dito"))      # Expected output: True
-print(ceksubjek("mereka"))    # Expected output: True
-print(ceksubjek("diti"),f'\n\n\n')    # fail
-# Test predikat
-print("Cek Predikat:")
-print(cekpredikat("mempelajari"))  # Expected output: True
-print(cekpredikat("membaca"))      # Expected output: True
-print(cekpredikat("menulis"))      # Expected output: True
-print(cekpredikat("mencatat"))     # Expected output: True
-print(cekpredikat("mengulas"))     # Expected output: True
-print(cekpredikat("menggambar"),f'\n\n\n')   # fail
+# # Test subjek
+# print("Cek Subjek:")
+# print(ceksubjek("aku"))       # Expected output: True
+# print(ceksubjek("kami"))      # Expected output: True
+# print(ceksubjek("kita"))      # Expected output: True
+# print(ceksubjek("dito"))      # Expected output: True
+# print(ceksubjek("mereka"))    # Expected output: True
+# print(ceksubjek("diti"),f'\n\n\n')    # fail
+# # Test predikat
+# print("Cek Predikat:")
+# print(cekpredikat("mempelajari"))  # Expected output: True
+# print(cekpredikat("membaca"))      # Expected output: T6rue
+# print(cekpredikat("menulis"))      # Expected output: True
+# print(cekpredikat("mencatat"))     # Expected output: True
+# print(cekpredikat("mengulas"))     # Expected output: True
+# print(cekpredikat("menggambar"),f'\n\n\n')   # fail
 
 
-# Test objek
-print("Cek Objek:")
-print(cekobjek("materi"))  # Expected output: True
-print(cekobjek("tugas"))   # Expected output: True
-print(cekobjek("buku"))    # Expected output: True
-print(cekobjek("komik"))   # Expected output: True
-print(cekobjek("majalah")) # Expected output: True
-print(cekobjek("kunci"),f'\n\n\n')   # fail
+# # Test objek
+# print("Cek Objek:")
+# print(cekobjek("materi"))  # Expected output: True
+# print(cekobjek("tugas"))   # Expected output: True
+# print(cekobjek("buku"))    # Expected output: True
+# print(cekobjek("komik"))   # Expected output: True
+# print(cekobjek("majalah")) # Expected output: True
+# print(cekobjek("kunci"),f'\n\n\n')   # fail
 
-# Test keterangan
-print(cekketerangan("di kelas"))  # Expected output: True
-print(cekketerangan("di rumah"))  # Expected output: True
-print(cekketerangan("di bangku"))  # Expected output: True
-print(cekketerangan("di perpustakaan"))  # Expected output: True
-print(cekketerangan("di sekolah"))  # Expected output: True
-print(cekketerangan("di pasar"))  # Expected output: False
+# # Test keterangan
+# print(cekketerangan("di kelas"))  # Expected output: True
+# print(cekketerangan("di rumah"))  # Expected output: True
+# print(cekketerangan("di bangku"))  # Expected output: True
+# print(cekketerangan("di perpustakaan"))  # Expected output: True
+# print(cekketerangan("di sekolah"))  # Expected output: True
+# print(cekketerangan("di pasar"))  # Expected output: False
