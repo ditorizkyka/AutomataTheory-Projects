@@ -246,7 +246,7 @@ def cekketerangan(keterangan):
                 state = 30        
         elif state == 30:
             if char == 'i':
-                state = 31
+                state = 32
         elif state == 31:
             if char == ' ':
                 state = 32           
